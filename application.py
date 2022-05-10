@@ -6,7 +6,7 @@ application = Flask(__name__)
 
 @application.route('/', methods=['GET'])
 def home():
-    return "<h1>Distant Reading Archive</h1><p>This site is a prototype API for distant reading of science fiction novels.</p>"
+    return "<h1>Hello World!! Just trying</h1><p>This site is a prototype API for distant reading of science fiction novels.</p>"
 
 # 1.Ruta para obtener todos los libros
 @application.route('/api/v0/resources/books/all', methods=['GET'])
